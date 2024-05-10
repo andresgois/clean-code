@@ -1,4 +1,4 @@
-package io.github.andresgois.cleancode.model;
+package io.github.andresgois.cleancode.infrastructure.persistence;
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
@@ -13,7 +13,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "tb_user")
-public class User {
+public class UserEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,4 +22,10 @@ public class User {
     private String password;
     private String email;
 
+    public UserEntity(String username, String password, String email) {
+        this.username = username;
+        this.password = password;
+        this.email = email;
+    }
+    
 }
