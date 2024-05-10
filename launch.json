@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Spring Boot Tests",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "CleancodeApplication",
+            "projectName": "io.github.andresgois.cleancode",
+            "args": [
+                "test"
+            ]
+        }
+    ]
+}

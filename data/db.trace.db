@@ -1,0 +1,7 @@
+2024-05-09 22:56:52.056465-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]user (email,password,username,id) values (?,?,?,default)"; expected "identifier"; SQL statement:
+insert into user (email,password,username,id) values (?,?,?,default) [42001-224]
+2024-05-09 23:02:20.969139-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2024-05-09 23:02:40.666540-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
