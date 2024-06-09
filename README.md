@@ -26,3 +26,4 @@ spring.profiles.active=dev
 - http://localhost:8080/h2-console
 - dev sem curso
 - teste merge
+- 2
