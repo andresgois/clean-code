@@ -24,3 +24,4 @@ spring.profiles.active=dev
 
 - https://marcionizzola.medium.com/esque%C3%A7a-o-postman-use-o-vscode-para-testar-api-s-2b98c004b750
 - http://localhost:8080/h2-console
+- dev sem curso
