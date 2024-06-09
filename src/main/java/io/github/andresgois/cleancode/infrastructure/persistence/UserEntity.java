@@ -1,6 +1,5 @@
 package io.github.andresgois.cleancode.infrastructure.persistence;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
